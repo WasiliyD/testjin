@@ -1,0 +1,23 @@
+{
+  "name": "election",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 1800000 --require hooks.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^119.0.1",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.15.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.37.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "description": ""
+}
